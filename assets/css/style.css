@@ -160,6 +160,26 @@ footer .social-icon li a{
 
 /* Media Query Start */
 @media (max-width: 576px) { 
+    .banner h1{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .banner h4{
+        font-size: 20px;
+        padding-left: 70px;
+        padding-top: 0px;
+    }
+    .banner .form-bg{
+        margin: 5px;
+    }
+    .banner .col-lg-3, .col-lg-2{
+        margin-bottom: 10px;
+    }
+    .banner .form-bg .btn{
+        width: 100%;
+        height: 40px;
+        border-radius: 0px;
+    }
     .subscribe{
         text-align: center;
     }
@@ -168,6 +188,13 @@ footer .social-icon li a{
     }
     .popular .card{
         margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .estimate .col-lg-3, .col-lg-2{
+        margin-bottom: 10px;
+    }
+    .estimate .btn{
+        width: 100%;
     }
     footer{
         text-align: center;
