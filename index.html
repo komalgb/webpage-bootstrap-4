@@ -59,52 +59,63 @@
 
     <!--Banner Section Start  -->
     <section class="banner">
-        <div class="container pt-4">
+        <div class="container pt-4 pb-5">
             <div class="row">
                 <div class="col-lg-6 text">
-                    <h1 class="text-white pt-5" style="font-size: 40px;">" The Best Place To Find The Cheapest Airfares  "</h1>
-                    <h4 class="text-white pt-3">- every single time</h4>
+                    <h1 class="text-white pt-5">" The Best Place To Find The Cheapest Airfares  "</h1>
+                    <h4 class="text-white">- every single time</h4>
                 </div>
-                <div class="col-lg-6"></div>
+               <div class="col-lg-6"></div>
             </div>
-            <div class="row pt-5">
-                <div class="col-lg-12 form-bg">
+            <div class="row mt-5 form-bg">
+                <div class="col-lg-10">
                     <div class="row">
-                        <ul>
+                        <ul class="list-unstyled">
                             <li><a href="javascript:void()"><i class="fa-solid fa-jet-fighter-up"></i>Flights</a></li>
                             <li><a href="javascript:void()"><i class="fa-solid fa-hotel"></i> Hotels</a></li>
                             <li><a href="javascript:void()"><i class="fa-solid fa-car"></i>Cars</a></li>
                         </ul>
                     </div>
                     <div class="row">
-                        <div class="col-lg-2">
-                            <label class="d-none" for="origin">origin</label>
-                            <input type="text" placeholder="Enter Origin City">
+                        <div class="col-lg-3">
+                            <input type="text" class="form-control" placeholder="Origin City" aria-label="First name">
+                        </div>
+                          <div class="col-lg-3">
+                            <input type="text" class="form-control" placeholder="Destination City" aria-label="Last name">
                         </div>
                         <div class="col-lg-2">
-                            <label class="d-none" for="origin">destination</label>
-                            <input type="text" placeholder="Enter Destination City">
+                            <input type="date" class="form-control" placeholder="First name" aria-label="First name">
+                        </div>
+                          <div class="col-lg-2">
+                            <input type="date" class="form-control" placeholder="Last name" aria-label="Last name">
                         </div>
                         <div class="col-lg-2">
-                            <label class="d-none" for="origin">start date</label>
-                            <input type="date">
-                        </div>
-                        <div class="col-lg-2">
-                            <label class="d-none" for="origin">end date</label>
-                            <input type="date">
-                        </div>
-                        <div class="col-lg-2">
-                            <select>
+                            <select class="form-select" aria-label="Default select example">
                                 <option selected>Open this select menu</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
                         </div>
-                        <div class="col-lg-2">
-                            <button type="button"> Search </button>
-                        </div>
                     </div>
+                    <div class="row pt-3">
+                        <div class="col-lg-2">
+                            <a style="background: none;" href="javascript:void()"><i class="fa-solid fa-suitcase-rolling" style="padding-right: 5px;"></i>trip type</a>
+                        </div>
+                        <div class="col-lg-2">
+                            <a style="background: none;" href="javascript:void()"><i class="fa-solid fa-ticket-simple" style="padding-right: 5px;"></i>Ticket Economy</a>
+                        </div>
+                        <div class="col-lg-3">
+                            <a style="background: none;" href="javascript:void()"><i class="fa-solid fa-plane-lock" style="padding-right: 5px;"></i>Direct Filghts Only</a>
+                        </div>
+                        <div class="col-lg-2">
+                            <a href="javascript:void()"><i class="fa-solid fa-plane-lock" style="padding-right: 5px;"></i>nearby airport</a>
+                        </div>
+                        <div class="col-lg-3"></div>
+                    </div>
+                </div>
+                <div class="col-lg-2 p-3">
+                    <button type="button" class="btn text-danger">Danger</button>
                 </div>
             </div>
         </div>
@@ -258,7 +269,7 @@
             <h3>GET A QUICK ESTIMATE!</h3>
             <h6>GET A PROFESSIONL HELP</h6>
             <div class="row pt-4">
-                <div class="col-lg-2">
+                <div class="col-lg-3">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Open this select menu</option>
                         <option value="1">One</option>
@@ -282,7 +293,7 @@
                     <label for="exampleFormControlInput1" class="form-label d-none">Email address</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <button type="button" class="btn btn-warning">Warning</button>
                 </div>
             </div>

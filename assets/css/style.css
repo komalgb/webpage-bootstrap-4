@@ -17,9 +17,15 @@ p, a{
 .banner{
     width: 100%;
     height: auto;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/img1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/img1.jpg);
     background-size: cover;
     background-position: center center;
+}
+.banner h1{
+    font-size: 40px;
+}
+.banner h4{
+    padding-top: 30px;
 }
 .banner .form-bg{
     width: 100%;
@@ -29,20 +35,28 @@ p, a{
 .banner .form-bg ul{
     display: flex;
 }
+.banner .form-bg input{
+    width: 100%;
+}
 .banner .form-bg ul li a{
     list-style: none;
     text-decoration: none;
     color: #fff;
-    background: #2a2121;
+    background: #564848;
     padding: 5px;
     margin-right: 10px;
+}
+.banner .form-bg a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
 }
 .banner .form-bg button{
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: none;
-   
+    background: #fff;
 }
 /* /Banner Section End   */
 
@@ -89,7 +103,7 @@ p, a{
 /* Estimate Section Start  */
 .estimate{
     width: 100%;
-    height: 340px;
+    height: auto;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/img1.jpg);
     background-size: cover;
     background-position: center center;
@@ -146,9 +160,6 @@ footer .social-icon li a{
 
 /* Media Query Start */
 @media (max-width: 576px) { 
-    .fun .col-lg-2{
-        margin-left: 40px;
-    }
     .subscribe{
         text-align: center;
     }
@@ -156,11 +167,44 @@ footer .social-icon li a{
         margin-bottom: 15px;
     }
     .popular .card{
-        margin-left: 70px;
         margin-bottom: 20px;
     }
     footer{
         text-align: center;
     }
  }
+ @media (max-width: 320px) { 
+    .banner h1{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .banner h4{
+        font-size: 15px;
+        padding-left: 70px;
+        padding-top: 0px;
+    }
+    .banner .form-bg{
+        margin: 5px;
+    }
+    .banner .col-lg-3, .col-lg-2{
+        margin-bottom: 10px;
+    }
+    .banner .form-bg .btn{
+        width: 100%;
+        height: 40px;
+        border-radius: 0px;
+    }
+    .fun .box{
+        margin-left: 80px;
+    }
+    .popular .card{
+        margin-left: 20px;
+    }
+    .estimate .col-lg-3{
+        margin-bottom: 10px;
+    }
+    .estimate .btn{
+        width: 100%;
+    }
+  }
 /* /Media Query End */
